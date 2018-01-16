@@ -15,6 +15,8 @@
 		3E950113200E148F00423FA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E950112200E148F00423FA1 /* main.m */; };
 		3E95011D200E149000423FA1 /* NavgationAlphaDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E95011C200E149000423FA1 /* NavgationAlphaDemoTests.m */; };
 		3E950128200E149000423FA1 /* NavgationAlphaDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E950127200E149000423FA1 /* NavgationAlphaDemoUITests.m */; };
+		3E950138200E14B100423FA1 /* TViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E950136200E14B100423FA1 /* TViewController.m */; };
+		3E950139200E14B100423FA1 /* TViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E950137200E14B100423FA1 /* TViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		3E950123200E149000423FA1 /* NavgationAlphaDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavgationAlphaDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E950127200E149000423FA1 /* NavgationAlphaDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavgationAlphaDemoUITests.m; sourceTree = "<group>"; };
 		3E950129200E149000423FA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E950135200E14B100423FA1 /* TViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TViewController.h; sourceTree = "<group>"; };
+		3E950136200E14B100423FA1 /* TViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TViewController.m; sourceTree = "<group>"; };
+		3E950137200E14B100423FA1 /* TViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,9 @@
 				3E950104200E148F00423FA1 /* AppDelegate.m */,
 				3E950106200E148F00423FA1 /* ViewController.h */,
 				3E950107200E148F00423FA1 /* ViewController.m */,
+				3E950135200E14B100423FA1 /* TViewController.h */,
+				3E950136200E14B100423FA1 /* TViewController.m */,
+				3E950137200E14B100423FA1 /* TViewController.xib */,
 				3E950109200E148F00423FA1 /* Main.storyboard */,
 				3E95010C200E148F00423FA1 /* Assets.xcassets */,
 				3E95010E200E148F00423FA1 /* LaunchScreen.storyboard */,
@@ -241,6 +249,7 @@
 				3E950110200E148F00423FA1 /* LaunchScreen.storyboard in Resources */,
 				3E95010D200E148F00423FA1 /* Assets.xcassets in Resources */,
 				3E95010B200E148F00423FA1 /* Main.storyboard in Resources */,
+				3E950139200E14B100423FA1 /* TViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +277,7 @@
 				3E950108200E148F00423FA1 /* ViewController.m in Sources */,
 				3E950113200E148F00423FA1 /* main.m in Sources */,
 				3E950105200E148F00423FA1 /* AppDelegate.m in Sources */,
+				3E950138200E14B100423FA1 /* TViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +443,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YDDGQ3YALT;
 				INFOPLIST_FILE = NavgationAlphaDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yanglin.NavgationAlphaDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,6 +458,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YDDGQ3YALT;
 				INFOPLIST_FILE = NavgationAlphaDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yanglin.NavgationAlphaDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

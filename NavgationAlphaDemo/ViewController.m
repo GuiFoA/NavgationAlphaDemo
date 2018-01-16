@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TViewController.h"
 
 @interface ViewController ()
 
@@ -16,14 +17,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)click:(id)sender {
+    TViewController * vc = [[TViewController alloc] init];
+    UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    [self presentViewController:nav animated:YES completion:nil];
+}
 
 @end
